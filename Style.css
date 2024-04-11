@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: black;
+} 
+    
+    
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+#bauhaus {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    height: 100vh;
+}
+/* bauhaus box */ 
+
+
+
+.bauhaus-box-red {
+    background-color: rgb(199, 52, 52);
+    padding: 30px;
+}
+
+.bauhaus-box-Blue {
+    background-color: rgb(41, 41, 165);
+    padding: 30px;
+}
+
+.bauhaus-box-yellow {
+    background-color: rgb(216, 201, 65);
+    padding: 30px;
+}
+
+.bauhaus-box-white {
+    background-color: white;
+    padding: 30px;
+}
+
+.bauhaus-box:nth-of-type(1) {
+    grid-row: 1;
+    grid-column: 1;
+}
+.bauhaus-box:nth-of-type(2) {
+    grid-row: 1/6;
+    grid-column: 2/4;
+}
+
+.bauhaus-box:nth-of-type(3) {
+    grid-row: 1;
+    grid-column: 4/7;
+}
+
+.bauhaus-box:nth-of-type(4) {
+    grid-row: 2/6;
+    grid-column: 1;
+}
+
+
+.bauhaus-box:nth-of-type(5) {
+    grid-row: 2/5;
+    grid-column: 4/7;
+}
+
+.bauhaus-box:nth-of-type(6) {
+    grid-row: 5/6;
+    grid-column: 4;
+}
+
+.bauhaus-box:nth-of-type(7) {
+    grid-row: 5/6;
+    grid-column: 5;
+}
+.bauhaus-box:nth-of-type(8) {
+    grid-row: 5/6;
+    grid-column: 6;
+}
